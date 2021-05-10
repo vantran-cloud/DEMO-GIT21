@@ -1,6 +1,6 @@
 1. git clone: kéo dự án trên server về máy tính 
 2. git init: khởi tạo thư mục git local
-3. git status: kiêm tra status vùng của file
+3. git status: kiêm tra status vùng của filgit e
 4. git add . : đưa tất cả các file có sự thay đổi vào vùng staging (vùng chính giữa)
 5. git add (tên file) : đưa 1 file có sự thay đổi vào vùng staginggit
 6. git rm --cached <file>: đưa 1 file từ staging quay ngc lại vùng working directory (vùng thứ 1)
@@ -8,3 +8,8 @@
 8. git config --global user.name "vantran" : set trên
 9. git commit  -m "mesage" : đưa các file có sự thay đổi sang vùng local repo (thư mục git)
 10. git push 
+11. git branch: kiểm tra nhánh làm việc
+12. git branch branchA : cách tạo branch mới 
+13. git checkout branchA : cách chuyển branch và ngc lại git checkout branch master
+14. git checkout -b branchB : cách vừa tạo branch mới vừa chuyển luôn qua branch mới
+
