@@ -1,5 +1,10 @@
 1. git clone: kéo dự án trên server về máy tính 
 2. git init: khởi tạo thư mục git local
-3. git status: kiêm tra status của file
+3. git status: kiêm tra status vùng của file
 4. git add . : đưa tất cả các file có sự thay đổi vào vùng staging (vùng chính giữa)
 5. git add (tên file) : đưa 1 file có sự thay đổi vào vùng staginggit
+6. git rm --cached <file>: đưa 1 file từ staging quay ngc lại vùng working directory (vùng thứ 1)
+7. git config --gobal user.email "vantrantmv0202@gmail.com" : set email
+8. git config --global user.name "vantran" : set trên
+9. git commit  -m "mesage" : đưa các file có sự thay đổi sang vùng local repo (thư mục git)
+10. git push 
